@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'MabuneFukasawaWebApp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_104db42f35b84fcb8609b737abc56ed8 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bbca73c085c54a8d85c3d9d6730a0719 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
